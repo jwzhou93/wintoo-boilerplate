@@ -1,0 +1,20 @@
+{
+  "useConfigFiles": true,
+  "cssPreprocessor": "sass",
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "airbnb",
+      "lintOn": ["save", "commit"]
+    },
+    "commitlint": {}
+  },
+  "config": {
+    "vue": {
+      "devServer": {
+        "open": false,
+        "port": 8080
+      }
+    }
+  }
+}
